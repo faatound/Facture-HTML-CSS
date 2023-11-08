@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(35, 106, 66);
+}
+#section1{
+    background-color: rgb(153, 240, 175);
+    height: 40vh;
+}
+img{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.info{
+    position: absolute;
+    top: 0; /* Place l'élément en haut */
+    right: 0; /* Place l'élément à droite */
+    margin-right: 30%;
+    margin-top: 2%;
+}
+#section2{
+    background-color: rgb(247, 249, 248);
+    height: 40vh;
+}
+.left-part{
+    float: left;
+    margin-left: 115px;
+
+
+}
+.right-part{
+    float: right;
+    margin-right: 368px;
+}
+#section3{
+    display: flex;
+    background-color:rgb(149, 235, 170) ;
+    height: 10vh;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.item {
+    margin-left: 8%;
+}
+
+.cost-qty {
+    display: flex;
+    margin-left: 48%;
+}
+
+#cost,  #price {
+    margin-left: 10px;
+}
+#qty{
+    margin-left: 200px;
+}
+
+.price {
+    margin-left: auto; /* Pousse "PRICE" à la fin de la barre de navigation */
+    margin-right: 20px;
+}
+
+h4 {
+    margin: 0;
+}
+
+#section4{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.texte {
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.cost-qty-content {
+    position: relative;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+
+#cost-content,  #prix {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#qty-content{
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+.price-content {
+    margin-left: auto; /* Pousse "PRICE" à la fin de la barre de navigation */
+    margin-right: 30px;
+    margin-top: 30px;
+
+}
+h4 {
+    margin: 0;
+}
+.line-horizontale {
+    position: absolute;
+    top: 50%; /* Ajustez la position verticale en fonction de vos besoins */
+    left: 0;
+    width: 190%;
+    height: 3px; /* Largeur de la ligne horizontale */
+    background-color: #000; /* Couleur de la ligne */
+  }
+  .l2{
+    transform: translateY(-205px);
+  }
